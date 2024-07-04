@@ -2,9 +2,13 @@
 module.exports = {
   content: ['./dist/*.html'],
   theme: {
-    extend: {},
+    extend: {
+      // Define custom colors and use garna lai text-sanish
+      colors: {
+        sanish: '#ee0181',
+        ram: '#01ee91',
+      },
+    },
   },
-  plugins: [
-
-  ],
+  plugins: [],
 };
