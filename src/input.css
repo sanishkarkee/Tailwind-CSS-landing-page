@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Common section lai lekhne method */
+@layer components {
+    .common-product-section {
+        @apply w-64 text-center flex flex-col items-center mb-12 border-white border-2 rounded-xl p-2;
+    }
+
+    .common-product-section img {
+        @apply w-28 h-28;
+    }
+
+    .common-product-section .first-paragraph {
+        @apply text-3xl font-bold text-white;
+    }
+
+    .common-product-section .second-paragraph {
+        @apply text-xl text-gray-500;
+    }
+}
